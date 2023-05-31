@@ -19,6 +19,11 @@ GO111MODULE=off go run .
 go get github.com/fatih/color
 # Установка пакета
 ```
+## Установка последней версией пакета
+```bash
+go get github.com/fatih/color@latest
+# Установка последней версией пакета
+```
 ## Обновление списка зависимостей
 ```bash
 go mod tidy
@@ -28,4 +33,9 @@ go mod tidy
 ```bash
 # достаточно удалить импорт этой зависимости из кода и запустить
 go mod tidy
+```
+## Линтер GO
+```bash
+# Линтер GO
+golangci-lint run
 ```
